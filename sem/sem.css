@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    padding: 5px 5%; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px ;
+    padding: 0px 40px;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: rgb(18, 153, 202);
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    position: absolute;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+h1{
+    color: yellowgreen;
+    font-size: 50px;
+}
+h2{
+    color: cornflowerblue;
+    font-size: 30px;
+    border-radius: 2px;
+    box-shadow: inset;
+    box-decoration-break: slice;
+}
+p{
+    color: black;
+    font-size: large;
+    font-style: inherit;
+}
+.fast{
+    align-items: flex-end;
+    text-align: end;
+    font-size: 20px;
+}
+div .gal{
+    align-items: center;
+    float: left;
+    display: block;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 450px;
+    height: 400px;
+
+  }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  ul{
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+
+  }
+  ol{
+    padding: 15px;
+    flex: auto;
+    font-size: larger;
+    background-color: skyblue;
+    word-spacing: 90px;
+    text-decoration:none;
+  }
+  ul text{
+    background-color: aqua;
+    font-size: 15px;
+
+  }
+.dack{
+  background-color: blueviolet;
+}
+  
